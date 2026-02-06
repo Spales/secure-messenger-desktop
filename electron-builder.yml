@@ -1,0 +1,32 @@
+appId: com.secure-messenger.desktop
+productName: Secure Messenger Desktop
+extends: null
+directories:
+  buildResources: assets
+  output: release
+files:
+  - dist/**/*
+  - build/**/*
+  - node_modules/**/*
+  - package.json
+  - "!dist/win-unpacked"
+  - "!dist/*.yaml"
+  - "!dist/*.yml"
+win:
+  target:
+    - target: portable
+      arch:
+        - x64
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+mac:
+  target:
+    - dmg
+    - zip
+  category: public.app-category.productivity
+linux:
+  target:
+    - AppImage
+    - deb
+  category: Office
