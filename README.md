@@ -1,4 +1,4 @@
-# Secure Messenger Desktop
+# Secure Messenger Desktop Application built by Isaac Opolot
 
 A secure, efficient messenger client built with Electron + React + TypeScript, demonstrating best practices in real-time synchronization, database performance, and security architecture.
 
@@ -417,10 +417,6 @@ The WAL mode handles this automatically, but if you see "database is locked":
 - Automatic reconnection support
 - Built-in ping/pong for health checks
 
-## License
-
-MIT
-
 ## Security Reporting
 
-If you find a security vulnerability, please email security@example.com instead of using the issue tracker.
+Incase you find any security vulnerability, kindly email isaacopolot201@gmail.com instead of using the issue tracker.
