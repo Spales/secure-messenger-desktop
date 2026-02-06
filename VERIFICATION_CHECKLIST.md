@@ -1,4 +1,4 @@
-# Project Verification Checklist
+# Project Verification Full Checklist
 
 Complete verification that all requirements from the test assignment are met.
 
