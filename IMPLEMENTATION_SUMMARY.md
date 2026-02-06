@@ -1,4 +1,4 @@
-# Implementation Summary as compiled by Opolot Isaac
+# Implementation Summary as compiled by Opolot Isaac.
 
 ## Project Completion
 
