@@ -1,4 +1,4 @@
-# Secure Messenger Desktop
+# Secure Messenger Desktop by Isaac Opolot
 
 A secure, efficient messenger client built with Electron + React + TypeScript, demonstrating best practices in real-time synchronization, database performance, and security architecture.
 
@@ -301,32 +301,32 @@ If this were a real messenger, we would:
 
 ### What Works Well
 
-✅ **Efficient pagination**: Load only visible data
-✅ **Responsive UI**: Virtualization prevents lag with large lists
-✅ **Robust connection**: Exponential backoff prevents server storms
-✅ **Clean architecture**: Separate server/client with clear boundaries
-✅ **Type-safe**: Full TypeScript with Redux Toolkit
+- **Efficient pagination**: Load only visible data
+- **Responsive UI**: Virtualization prevents lag with large lists
+- **Robust connection**: Exponential backoff prevents server storms
+- **Clean architecture**: Separate server/client with clear boundaries
+- **Type-safe**: Full TypeScript with Redux Toolkit
 
 ### What Needs More Time
 
-⏳ **E2E Encryption**: Currently placeholder only (requires protocol design)
-⏳ **Message Search**: Limited to current chat (could add full-text search index)
-⏳ **Offline Support**: Store pending messages when offline
-⏳ **Message Reactions**: Not implemented
-⏳ **Media Support**: Images/files not supported yet
-⏳ **User Authentication**: No multi-user support (single-user desktop app)
-⏳ **Database Encryption**: SQLite-net (encrypted database at rest)
-⏳ **Test Coverage**: Unit test templates added but need Jest configuration to run
+- **E2E Encryption**: Currently placeholder only (requires protocol design)
+- **Message Search**: Limited to current chat (could add full-text search index)
+- **Offline Support**: Store pending messages when offline
+- **Message Reactions**: Not implemented
+- **Media Support**: Images/files not supported yet
+- **User Authentication**: No multi-user support (single-user desktop app)
+- **Database Encryption**: SQLite-net (encrypted database at rest)
+- **Test Coverage**: Unit test templates added but need Jest configuration to run
 
 ### Recent Improvements
 
-✅ **Code Quality**: Fixed inline style ESLint warnings with proper comments (react-window requirement)
-✅ **Project Cleanup**: Removed unused Next.js/Tailwind/shadcn configurations
-✅ **Test Coverage**: Added unit test templates for:
+ **Code Quality**: Fixed inline style ESLint warnings with proper comments (react-window requirement)
+- **Project Cleanup**: Removed unused Next.js/Tailwind/shadcn configurations
+- **Test Coverage**: Added unit test templates for:
   - Database queries and pagination
   - Redux slices (connection, chats, messages)
   - WebSocket connection handling and exponential backoff
-✅ **Architecture**: Clean separation between Electron app and unused UI frameworks
+- **Architecture**: Clean separation between Electron app and unused UI frameworks
 
 ### If I Had More Time
 
@@ -447,10 +447,7 @@ The WAL mode handles this automatically, but if you see "database is locked":
 - Automatic reconnection support
 - Built-in ping/pong for health checks
 
-## License
-
-MIT
 
 ## Security Reporting
 
-If you find a security vulnerability, please email security@example.com instead of using the issue tracker.
+Incase you find a security vulnerability, please email me isaacopolot201@gmail.com. 
