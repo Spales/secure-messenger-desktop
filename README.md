@@ -300,22 +300,22 @@ If this were a real messenger, we would:
 
 ### What Works Well
 
-✅ **Efficient pagination**: Load only visible data
-✅ **Responsive UI**: Virtualization prevents lag with large lists
-✅ **Robust connection**: Exponential backoff prevents server storms
-✅ **Clean architecture**: Separate server/client with clear boundaries
-✅ **Type-safe**: Full TypeScript with Redux Toolkit
+**Efficient pagination**: Load only visible data
+**Responsive UI**: Virtualization prevents lag with large lists
+**Robust connection**: Exponential backoff prevents server storms
+**Clean architecture**: Separate server/client with clear boundaries
+**Type-safe**: Full TypeScript with Redux Toolkit
 
 ### What Needs More Time
 
-⏳ **E2E Encryption**: Currently placeholder only (requires protocol design)
-⏳ **Message Search**: Limited to current chat (could add full-text search index)
-⏳ **Offline Support**: Store pending messages when offline
-⏳ **Message Reactions**: Not implemented
-⏳ **Media Support**: Images/files not supported yet
-⏳ **User Authentication**: No multi-user support (single-user desktop app)
-⏳ **Database Encryption**: SQLite-net (encrypted database at rest)
-⏳ **Tests**: No unit tests yet (would add for connection logic, DB queries)
+**E2E Encryption**: Currently placeholder only (requires protocol design)
+**Message Search**: Limited to current chat (could add full-text search index)
+**Offline Support**: Store pending messages when offline
+**Message Reactions**: Not implemented
+**Media Support**: Images/files not supported yet
+**User Authentication**: No multi-user support (single-user desktop app)
+**Database Encryption**: SQLite-net (encrypted database at rest)
+**Tests**: No unit tests yet (would add for connection logic, DB queries)
 
 ### If I Had More Time
 
