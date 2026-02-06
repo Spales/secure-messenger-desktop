@@ -1,10 +1,10 @@
-# Desktop Application Notice
+# Desktop Application Notice by Isaac Opolot
 
-This project is a **desktop application** built with Electron and cannot run in web browsers or online preview environments.
+This project is a **Desktop Application** built with Electron and cannot run in web browsers or online preview environments.
 
-## Why Preview Doesn't Work
+## Why Web Preview Doesn't Work
 
-The v0 preview environment is browser-based and cannot:
+Web preview environment is browser-based and cannot:
 - Run Electron (desktop framework)
 - Access local SQLite database
 - Run WebSocket server
@@ -56,4 +56,4 @@ Once running locally, you'll have:
 - Connection health monitoring with auto-recovery
 - Production-ready security architecture
 
-See [README.md](./README.md) for full documentation.
+See [README.md](./README.md) for full documentation or send me an Email for inquiries at: isaacopolot201@gmail.com
