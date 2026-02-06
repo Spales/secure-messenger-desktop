@@ -1,4 +1,4 @@
-# Security Architecture
+# Security Architecture by Isaac Opolot
 
 This document explains the security design decisions and how sensitive data is protected in Secure Messenger Desktop.
 
@@ -253,14 +253,14 @@ const key = await crypto.subtle.importKey(
 
 ## Security Testing Checklist
 
-- [ ] No plaintext message bodies in console logs
-- [ ] No sensitive data in DevTools (production)
-- [ ] No message content in crash reports
-- [ ] IPC communication uses only whitelisted methods
-- [ ] Database queries prevent SQL injection
-- [ ] Encryption boundaries tested with unit tests
-- [ ] Connection drop recovery doesn't leak state
-- [ ] Offline data remains encrypted
+-  No plaintext message bodies in console logs
+-  No sensitive data in DevTools (production)
+-  No message content in crash reports
+-  IPC communication uses only whitelisted methods
+-  Database queries prevent SQL injection
+-  Encryption boundaries tested with unit tests
+-  Connection drop recovery doesn't leak state
+-  Offline data remains encrypted
 
 ## Security Incident Response
 
