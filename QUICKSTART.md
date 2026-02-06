@@ -345,7 +345,7 @@ const maxDelay = 30000;             // Change max backoff delay
 
 ---
 
-**Happy coding!** 🚀
+**Enjoy the Application!**
 
 For detailed information, see:
 
